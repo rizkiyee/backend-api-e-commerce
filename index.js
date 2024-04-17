@@ -3,7 +3,7 @@ const express = require("express"),
   PORT = 3000,
   { formatResponse } = require("./helpers/formatResponse"),
   { itemsRouter } = require("./src/router/itemsRouter"),
-  { addRouter } = require("./src/router/addUsersRouter"),
+  { addRouter } = require("./src/router/usersRouter"),
   { userLoginRouter } = require("./src/router/loginRouter"),
   { orderUsers } = require("./src/router/orderRouter");
 
